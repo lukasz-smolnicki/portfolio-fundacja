@@ -1,5 +1,5 @@
 .nav__item-active {
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 .nav__scrolled-true {
@@ -18,8 +18,9 @@
     transition: opacity 1000ms linear;
 }
 
-.nav__background {
+.nav {
     background-color: #00558E;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #hero {
@@ -49,6 +50,16 @@
     border-top: 3px solid #00B4E9;
     background-color: rgb(255, 255, 255);
     height: 300px;
+}
+
+.rules {
+    background-color: #00558E;
+    color: white;
+}
+
+a:link,
+a:visited {
+    color: white
 }
 
 /*
